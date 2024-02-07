@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/typography.css">
+        <link rel="stylesheet" href="Assets/fontawesome/css/all.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/hero.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+        <script src="scripts/main.js"></script>
+        <title>Ts'eisa Styles</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <nav>
+                <div class="nav_top">
+                    <span class="logo">
+                        <img src="Assets/src/logo.svg" alt="" class="logo_img">
+                        <img src="Assets/src/wordmark.svg" alt="" class="logo_text">
+                    </span>
+
+                    <label class="hamburger">
+                        <input type="checkbox" id="toggler">
+                        <svg viewBox="0 0 32 32">
+                            <path class="line line-top-bottom"
+                                d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                            </path>
+                            <path class="line" d="M7 16 27 16"></path>
+                        </svg>
+                    </label>
+                </div>
+
+                <div class="nav_links">
+                    <ul>
+                        <li>
+                            <a href="#hero">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#products">Products</a>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="hero" class=" hero_section">
+                <div class="hero_text">
+                    <h1 class="heading">Make your home more looking and comfortable for you</h1>
+                    <p>Turn your room with <span class="company_name">Ts'eisa Styles</span> into more minimalist and
+                        modern with ease.</p>
+                </div>
+                <div class="bottom_fade">
+                </div>
+            </section>
+            
+            <section id="about" class="section about_section">
+                <!--
+                <div class="about_top">
+                    <div class="point">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <div class="point_text">
+                            <h2>Free delivery</h2>
+                            <p>For all orders over M1000</p>
+                        </div>
+                    </div>
+
+                    <div class="point">
+                        <i class="fa-solid fa-wallet"></i>
+                        <div class="point_text">
+                            <h2>Quick Payments</h2>
+                            <p>100% secure payments</p>
+                        </div>
+                    </div>
+
+                    <div class="point">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="point_text">
+                            <h2>24/7 Support</h2>
+                            <p>Dedicated support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_body">
+                    
+                    <div class="about_text">
+                        <h3 class="heading-title">Our Story</h3>
+                        <p>We are a family owned business that has been providing quality furniture to our customers for over 50 years. Our goal is to provide you with the best possible shopping experience.</p>
+                    </div>
+
+                    <div class="about_img_container">
+                        <img src="Assets/src/grey.jpg" alt="" class="about_pic">
+                        <svg width="0" height="0">
+                            <defs>
+                                <clipPath id="myClip">
+                                    <rect class="cls-1" x="151" width="459" height="124.68"/>
+<rect class="cls-1" y="129.16" width="610" height="124.68"/>
+<rect class="cls-1" x="86" y="258.32" width="524" height="124.68"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+            
+                </div>
+            
+                <div class="stats">
+                    <div class="stat"><p>120+</p></div>
+                    <div class="stat"><p>800+</p></div>
+                    <div class="stat"><p>3760+</p></div>
+                    <div class="stat"><p>180+</p></div>
+                </div>
+                -->
+            </section>
+<!--
+            <section id="products" class="section products_section">
+                <h3 class="heading-title">Products</h3>
+                <p class="sub-title">We offer a wide range of furniture products to suit your needs, Our products include</p>
+                <div class="parent">
+                    <div class="div1 grid">
+                        <div class="product_name_box">
+                            <p class="product_name">Sofa</p>
+                            <p class="product_qty">140 Products</p>
+                        </div>
+                </div>
+                    <div class="div2 grid">
+                        <div class="product_name_box">
+                            <p class="product_name">Chairs</p>
+                            <p class="product_qty">70 Products</p>
+                        </div>
+                    </div>
+                    <div class="div3 grid">
+                        <div class="product_name_box">
+                            <p class="product_name">Beds</p>
+                            <p class="product_qty">130 Products</p>
+                        </div>
+                    </div>
+                    <div class="div4 grid">
+                        <div class="product_name_box">
+                            <p class="product_name">Shelves</p>
+                            <p class="product_qty">60 Products</p>
+                        </div>
+                    </div>
+                    <div class="div5 grid">
+                        <div class="product_name_box">
+                            <p class="product_name">Cabinets</p>
+                            <p class="product_qty">14 Products</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <div class="contact_body">
+                    <div class="contact_text">
+                        <h3 class="heading-title">Let's talk</h3>
+                        <form action="">
+                            <div class="wave-group">
+                                <input required="" type="text" class="input">
+                                <span class="bar"></span>
+                                <label class="label">
+                                  <span class="label-char" style="--index: 0">N</span>
+                                  <span class="label-char" style="--index: 1">a</span>
+                                  <span class="label-char" style="--index: 2">m</span>
+                                  <span class="label-char" style="--index: 3">e</span>
+                                </label>
+                              </div>
+                              <div class="wave-group">
+                                <input required="" type="email" class="input">
+                                <span class="bar"></span>
+                                <label class="label">
+                                  <span class="label-char" style="--index: 0">E</span>
+                                  <span class="label-char" style="--index: 1">m</span>
+                                  <span class="label-char" style="--index: 2">a</span>
+                                  <span class="label-char" style="--index: 3">i</span>
+                                  <span class="label-char" style="--index: 4">l</span>
+                                </label>
+                              </div>
+                              <div class="wave-group">
+                                <input required="" type="text" class="input">
+                                <span class="bar"></span>
+                                <label class="label">
+                                    <span class="label-char" style="--index: 0">[</span>
+                                  <span class="label-char" style="--index: 1">+</span>
+                                  <span class="label-char" style="--index: 2">2</span>
+                                  <span class="label-char" style="--index: 3">6</span>
+                                  <span class="label-char" style="--index: 4">6</span>
+                                  <span class="label-char" style="--index: 5">]</span>
+                                  <span class="label-char" style="--index: 6">5</span>
+                                  <span class="label-char" style="--index: 7">7</span>
+                                  <span class="label-char" style="--index: 8">9</span>
+                                  <span class="label-char" style="--index: 9">3</span>
+                                  <span class="label-char" style="--index: 10">3</span>
+                                  <span class="label-char" style="--index: 11">1</span>
+                                  <span class="label-char" style="--index: 12">8</span>
+                                  <span class="label-char" style="--index: 13">5</span>
+                                </label>
+                              </div>
+                        </form>
+                       
+                    </div>
+
+                    <div class="contact_img_container">
+                        <img src="Assets/src/couch.webp" alt="" class="contact_img">
+                        <svg width="0" height="0">
+                            <defs>
+                                <clipPath id="myClip2">
+                                    <rect class="cls-1" x="161.31" y="179.63" width="288.19" height="118.55" transform="translate(543.81 -66.5) rotate(90)"/>
+                                    <rect class="cls-1" x="236.56" y="132.22" width="383" height="118.55" transform="translate(619.06 -236.56) rotate(90)"/>
+                                    <rect class="cls-1" x="386.22" y="159.22" width="329" height="118.55" transform="translate(768.72 -332.22) rotate(90)"/>
+                                    <rect class="cls-1" x="18.09" y="159.22" width="329" height="118.55" transform="translate(400.59 35.91) rotate(90)"/>
+                                    <rect class="cls-1" x="-68.72" y="195.22" width="257" height="118.55" transform="translate(313.78 194.72) rotate(90)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            -->
+        </main>
+<!--
+        <footer>
+<nav class="footer_nav">
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="contacts">
+    <div class="point">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="point_text">
+            <li>
+            <a href="#">Leribe Lesotho</a>
+        </li>
+        </div>
+    </div>
+
+    <div class="point">
+        <i class="fa-solid fa-phone"></i>
+        <div class="point_text">
+            <li>
+                <a href="tel:+266579333185">(+266) 57933 3185</a>
+            </li>
+            
+        </div>
+    </div>
+
+    <div class="point">
+        <i class="fa-solid fa-envelope"></i>
+        <div class="point_text">
+            <li>
+                <a href="mailto:info@tseisastyles.com">info@tseisastyles.com</a>
+            </li>
+            
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+<div class="footer_bottom">
+    <span class="designer">
+        <p>Designed & Developed by </p>
+        <li><a href="https://kananelotseisa.netlify.app/" target="_blank" rel="noopener noreferrer">Kananelo Ts'eisa</li>
+    </span>
+    <p>© 2024 Ts'eisa - All rights reserved</p>
+</div>
+
+
+        </footer>
+        -->
+    </body>
+
+
+</html>

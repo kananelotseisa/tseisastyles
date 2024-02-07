@@ -1,0 +1,40 @@
+.parent {
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
+.parent .grid{
+    color: white;
+    padding: 1rem 1rem;
+    display: inline-flex;
+    align-items: flex-end;
+    height: 25rem;
+    border-radius: 16px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; background: url("../Assets/src/couch.webp") no-repeat center bottom/cover;}
+.div2 { grid-area: 1 / 3 / 2 / 4; background: url("../Assets/src/black-chair-with-black-leather-armrest-plant-pot-with-plant-it_902639-18648.jpg") no-repeat center bottom/cover;}
+.div3 { grid-area: 2 / 1 / 3 / 4; background: url("../Assets/src/modern-bedroom.jpg") no-repeat center bottom/cover;}
+.div4 { grid-area: 3 / 1 / 4 / 2; background: url("../Assets/src/shelves.jpg") no-repeat center bottom/cover;}
+.div5 { grid-area: 3 / 2 / 4 / 4; background: url("../Assets/src/cabin.jpg") no-repeat center bottom/cover;}
+
+
+.product_name_box{
+    background:  rgba(38, 48, 59, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    min-width: 8rem;
+}
+
+@media screen and (max-width: 768px){
+    .parent {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

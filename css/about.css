@@ -1,0 +1,92 @@
+.about_section .about_top{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_top .point{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.about_top .point i{
+    font-size: 3rem;
+    background: linear-gradient(180deg, var(--green) 0%, var(--blue) 100%);
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    --text-fill-color: transparent;
+}
+
+.about_body{
+    margin: 7rem 0 0rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about_body .about_text{
+width: 45%;
+
+}
+
+.about_body .about_img_container{
+    flex: 1;
+    height: 24rem;
+}
+.about_body .about_pic{
+width: 100%;
+object-fit: cover;
+clip-path: url(#myClip);
+}
+
+.stats{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.stats .stat{
+    color: var(--dark-navy);
+    border-left: 2px solid var(--light-navy);
+    padding: 0 3rem;
+}
+
+.stats .stat:first-child{
+    border-left:none;
+}
+
+@media screen and (max-width: 768px){
+    
+    .about_body{
+        margin: 3rem 0 0rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about_body .about_text{
+        width: 100%;
+        }
+}
+
+@media screen and (max-width: 425px) {
+    .about_section .about_top{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+
+    .stats .stat{
+        border-left: none;
+        border-top: 2px solid var(--light-navy);
+        text-align: center;
+    }
+    .stats .stat:first-child{
+        border-top:none;
+    }
+}

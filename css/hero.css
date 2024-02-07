@@ -1,0 +1,37 @@
+.hero_section{
+    position: relative;
+    background: url("../Assets/src/modern-living-room-background.jpg") no-repeat center bottom/cover;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    }
+    
+    .bottom_fade{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 83.65%);
+        height: 160px;
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .hero_section .hero_text{
+        width: 70%;
+    }
+
+    @media screen and (max-width: 768px){
+        .hero_section{
+            padding: 0 3%;
+            height: 120vh;
+        }
+        .hero_section .hero_text{
+            width: 100%;
+        }  
+        .bottom_fade {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 70%);
+        }
+    }
+    
