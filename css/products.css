@@ -38,3 +38,20 @@
         grid-template-rows: repeat(3, 1fr);
     }
 }
+
+@media screen and (max-width: 425px){
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent .grid{
+        height: auto;
+    }
+    
+.div1 {aspect-ratio: 2/1;}
+.div2 {aspect-ratio: 1/1;}
+.div3 {aspect-ratio: 3/1;}
+.div4 {aspect-ratio: 1/1;}
+.div5 {aspect-ratio: 2/1;}
+}

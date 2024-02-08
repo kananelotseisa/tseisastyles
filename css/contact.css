@@ -98,11 +98,9 @@ clip-path: url(#myClip2);
   
   
   @media screen and (max-width: 768px){
-    .contact-section{
-      display: none;
-    }
   .contact_body{
       flex-direction: column;
+      margin: 5rem 0 0;
   }
   
   .contact_body .contact_text{

@@ -25,6 +25,7 @@
     @media screen and (max-width: 768px){
         .hero_section{
             padding: 0 3%;
+            width: auto;
             height: 120vh;
         }
         .hero_section .hero_text{

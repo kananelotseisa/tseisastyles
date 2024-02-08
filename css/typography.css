@@ -16,10 +16,13 @@
 
 .hero_text p{
 font-size: 1.4rem;
+line-height: 35px;
 }
 .hero_text .company_name{
     font-weight: bold;
     position: relative;
+    white-space: nowrap;
+
 }
 
 .company_name:after {

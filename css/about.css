@@ -1,3 +1,7 @@
+.about_section{
+    padding: 0 7%;
+}
+
 .about_section .about_top{
     width: 100%;
     margin-top: 3rem;
@@ -36,6 +40,11 @@ width: 45%;
     flex: 1;
     height: 24rem;
 }
+
+.about_body #myClip .cls{
+    height:124.68px;
+}
+
 .about_body .about_pic{
 width: 100%;
 object-fit: cover;
@@ -59,7 +68,11 @@ clip-path: url(#myClip);
 }
 
 @media screen and (max-width: 768px){
-    
+
+    .about_section{
+        width: auto;
+        overflow: hidden;
+    }
     .about_body{
         margin: 3rem 0 0rem;
         flex-direction: column;
@@ -75,6 +88,13 @@ clip-path: url(#myClip);
     .about_section .about_top{
         flex-direction: column;
         gap: 3rem;
+    }
+
+    .about_body .about_img_container {
+        display: none;
+    }
+    .about_body .about_pic{
+        width: auto;
     }
 
     .stats{

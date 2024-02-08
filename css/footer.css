@@ -63,3 +63,19 @@ footer .designer{
     gap: 5px;
 }
 
+
+@media screen and (max-width: 768px){
+    footer .footer_nav ul{
+        padding-inline-start: 0;
+        flex-direction: column;
+    }
+    .contacts{
+        display: flex;
+        gap: 1rem;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+    footer .footer_bottom{
+        flex-direction: column;
+    }
+}
